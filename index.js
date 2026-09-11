@@ -13,7 +13,6 @@ $(document).keypress(function () {
   }
 });
 
-// 2. Click pe buton de către utilizator
 $(".btn").click(function () {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
